@@ -27,3 +27,12 @@ print(r'C\SF\SFDS\SDF') # print('r'C\SF\SFDS\SDF\') - odd number of \ at end of 
 # 2. when invoked with "python -" sys.argv will be ['-']
 # 3. when invoked with "python -c 'print(43)'" sys.argv will be ['-c']
 # 4. when invoked with "python -m Day3.control_flow" sys.argv will be ['full path of module']
+import time
+for i in range(15):
+    print(i,end=' ',flush=True)
+    time.sleep(0.6)
+print('end')
+print('sdflsfds')
+time.sleep(5)
+# file parameter is where we want to print.
+# default = sys.stdout. can change to any file.
