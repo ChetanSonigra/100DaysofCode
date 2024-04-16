@@ -5,6 +5,9 @@
 # float: 324.23, 2.2, 1.0
 # bool: True, False
 # complex number: j/J. x = 4+2j or x = complex(4,5); x.real(), x.img()
+# byte: s = b'Hellow' 
+# octadecimal: s = 0O22, hexadecimal: d = 0x43A
+# None: no value
 # --------------------------------------------------------#
 
 # type(), type errors, type conversions/casting.
