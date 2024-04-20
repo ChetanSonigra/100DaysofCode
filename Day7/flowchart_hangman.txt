@@ -1,0 +1,19 @@
+generate_random_word()
+generate_dashed_word() # modified_word
+lives = 7
+while lives>0:
+    Ask_user_a_letter()
+    if check_letter_in_guess_word():
+        modifty_modified_word()
+    else:
+        lives -= 1
+        return  lost!
+
+    check if modified_word = guess_word
+        if true: return You Won!
+    show_dashed_word()
+    show_hangman()
+return 'You lost!'
+
+
+
