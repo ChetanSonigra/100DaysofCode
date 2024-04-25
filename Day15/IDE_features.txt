@@ -1,0 +1,6 @@
+1. Spell check
+2. More space - side by side files.
+3. Built-in Linter - style guide in python
+4. Can see file histories.
+5. Gives overview of variables and functions.
+6. Change specific string in whole file at once.
