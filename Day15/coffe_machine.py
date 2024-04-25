@@ -37,17 +37,23 @@ def adjust_resources(item):
         resources[resource] -= MENU[item]['ingredients'].get(resource,0)
     
     
+def show_report():
+    for k,v in resources.items():
+        if k =='coffee':
+            print(f'{k}: {v}g')
+        else:
+            print(f'{k}: {v}ml')
+    print(f"Money: ${MONEY}")
+    
+  
 is_on = True
+
 while is_on:
+    
     user_input = input('What would you like? (espresso/latte/cappuccino): ').lower()
 
     if user_input == 'report':
-        for k,v in resources.items():
-            if k =='coffee':
-                print(f'{k}: {v}g')
-            else:
-                print(f'{k}: {v}ml')
-        print(f"Money: ${MONEY}")
+        show_report()
     elif user_input == 'off':
         is_on = False
     elif is_resource_sufficient(user_input):
