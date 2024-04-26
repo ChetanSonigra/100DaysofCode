@@ -1,0 +1,20 @@
+# when we have a large functionalities/projects. procedural programming becomes complex.
+Example: one man restaurant vs. fully managed restaurant with cook,waiter,cleaner and manager.
+
+Waiter:
+
+attribute: variables that attached to particular object 
+    is_holding_plate = True
+    tables_responsible = [2,3,5]
+
+methods: functions that object can do.
+    take_order(table,order)
+    take_payment(money)
+
+can generate multiple object of this type: Henry, Betty - objects
+Waiter - class
+
+Package: Python Package Index (PyPI) 
+search any thing you want to achieve at https://pypi.org/
+get information about that package, documentation, and install it.
+in vs code, select 'package_name' --> right click --> 'Go to Definition'
