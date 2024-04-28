@@ -1,0 +1,11 @@
+3 ways: 
+1. import turtle                               - when you want to use this only few times.
+2. from turtle import Turtle                   - when you want to use class many times.
+3. from turtle import *                        - not recommended.
+
+# alias 
+import turtle as t
+import pandas as pd
+
+# you can import those modules only which are in python standard library
+# for other modules, you have to install it with pip install package_name
