@@ -1,0 +1,7 @@
+1. Absoulut path: is relative to root directory. (/ or C:/)
+2. Relative path: relative to current directory. 
+you are in directory '100DaysofCode'
+relative path = ./Day24/main.py   or just Day24/main.py
+
+you are in Day24 folder
+relative path = ../Day23/main.py 
