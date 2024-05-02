@@ -30,10 +30,10 @@ while len(guessed_states)<50:
         
 
 # states_to_learn.csv
-states_to_learn= []
-for state in states:
-    if state not in guessed_states:
-        states_to_learn.append(state)
+states_to_learn= [state for state in states if state not in guessed_states]  # list comprehension
+# for state in states:
+#     if state not in guessed_states:
+#         states_to_learn.append(state)
 data_df = pd.Series(states_to_learn)
 data_df.to_csv('Day25/US_States_Game/states_to_learn.csv')
 
