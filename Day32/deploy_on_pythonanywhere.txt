@@ -1,0 +1,4 @@
+1. create account and login.
+2. go to files --> upload all files/folders in birthday_wisher.
+3. run a script with bash shell.
+4. go to task --> schedule to run it daily.
