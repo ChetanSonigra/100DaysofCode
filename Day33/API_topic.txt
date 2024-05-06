@@ -1,0 +1,27 @@
+API: Application Programming Interface
+
+An API is a set of commands, functions, protocols and objects that
+programmers can use to create software or interact with an exteranl system
+
+Barrier between your program and external system.
+
+Examples: 
+1. yahoo weather API
+2. coinbase crypto price tracking api
+3. NBA api to track games, teams, players etc.
+
+API EndPoint: location where data is stored. basically an url
+              It is the location where requests are received for specific resources.
+Examples: api.coinbase.com, 
+
+API Request: specific format/method to receive specific data.
+
+Response codes: 
+1xx -- Hold on. something is happening.
+2xx -- Here you go. successful
+3xx -- Go Away - no permission
+4xx -- you screwed up. user error.
+5xx -- I screwed up. server error
+
+API Parameters: 
+Allows you to give input, to get different/specific output.
