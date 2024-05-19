@@ -9,9 +9,9 @@ class FlightSearch:
         }              
     
     def get_IATA_code(self,city: str):
-        querystring = {"name":city}
+        querystring = {"name":city,"page":"1","page_size":"20","sorted_by":"icao"}
         response = requests.get(self.rapid_api_airports_endpoint, headers=self.headers, params=querystring)
         data = response.json()
-        print(data)
+        # print(data)
         return data['data'][0]['iata_code']
     

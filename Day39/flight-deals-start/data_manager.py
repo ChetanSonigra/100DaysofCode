@@ -18,16 +18,17 @@ class DataManager:
     
     def add_IATA_code(self):
         flight_search=FlightSearch()
+        print(self.destination_data)
         for city in self.destination_data:
-            IATA_CODE = flight_search.get_IATA_code(city['city'])
             if not city['iataCode']:
+                IATA_CODE = flight_search.get_IATA_code(city['city'])
                 body = {
                     'price': {
                         'iataCode': IATA_CODE
                     }
                 }
-            resp = requests.put(f"{self.sheety_endpoint}/{id}",json=body,headers=self.headers)
-            print(resp.text)
+                resp = requests.put(f"{self.sheety_endpoint}/{id}",json=body,headers=self.headers)
+                print(resp.text)
 
 
 

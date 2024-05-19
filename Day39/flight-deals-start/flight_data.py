@@ -15,9 +15,12 @@ class FlightData:
         }
 
         response = requests.get(self.skyscanner_endpoint, headers=headers, params=querystring)
-
-        print(response.json())
+        response.raise_for_status()
+        cheapest_flight = response.json()['data'][0]
+        # print(cheapest_flight)
+        return cheapest_flight
         
         
-flight_data = FlightData()
-flight_data.find_cheapest_flight('RAJ','CDG')
+if __name__=='__main__':
+    flight_data = FlightData()
+    flight_data.find_cheapest_flight('AMD','BOM')
