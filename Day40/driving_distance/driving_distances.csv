@@ -1,0 +1,154 @@
+Origin,Destination,Distance
+Tirupati,Mysore,491.6035
+Tirupati,Visakhapatnam,727.2851
+Tirupati,Vijaywada,381.4525
+Tirupati,Arani,192.123
+Tirupati,Kumbakonam,374.1415
+Tirupati,Madurai,548.261
+Tirupati,Hubli,634.0706
+Tirupati,Pondicherry,261.7947
+Tirupati,Tirupur,489.5362
+Tirupati,Bangarapet,257.966
+Tirupati,Kottayam,785.9671
+Tirupati,Manipal,715.2547
+Tirupati,Shimoga,574.2136
+Tirupati,Erode,437.303
+Tirupati,Nellore,104.0234
+Tirupati,Perumbavoor,706.751
+Tirupati,Salem,370.8302
+Mysore,Visakhapatnam,1191.0296
+Mysore,Vijaywada,845.197
+Mysore,Arani,412.1422
+Mysore,Kumbakonam,426.6253
+Mysore,Madurai,393.9197
+Mysore,Hubli,460.0766
+Mysore,Pondicherry,445.045
+Mysore,Tirupur,186.658
+Mysore,Bangarapet,258.8528
+Mysore,Kottayam,400.3187
+Mysore,Manipal,314.0719
+Mysore,Shimoga,282.8111
+Mysore,Erode,201.5642
+Mysore,Nellore,559.453
+Mysore,Perumbavoor,326.7564
+Mysore,Salem,230.9144
+Visakhapatnam,Vijaywada,351.3163
+Visakhapatnam,Arani,889.5722
+Visakhapatnam,Kumbakonam,1072.0262
+Visakhapatnam,Madurai,1266.3249
+Visakhapatnam,Hubli,1068.4967
+Visakhapatnam,Pondicherry,959.6794
+Visakhapatnam,Tirupur,1186.9854
+Visakhapatnam,Bangarapet,955.4152
+Visakhapatnam,Kottayam,1483.4163
+Visakhapatnam,Manipal,1246.7457
+Visakhapatnam,Shimoga,1105.7046
+Visakhapatnam,Erode,1134.7522
+Visakhapatnam,Nellore,626.4306
+Visakhapatnam,Perumbavoor,1404.2002
+Visakhapatnam,Salem,1068.2794
+Vijaywada,Arani,540.727
+Vijaywada,Kumbakonam,723.1811
+Vijaywada,Madurai,917.4798
+Vijaywada,Hubli,719.6515
+Vijaywada,Pondicherry,610.8342
+Vijaywada,Tirupur,838.1403
+Vijaywada,Bangarapet,606.5701
+Vijaywada,Kottayam,1134.5711
+Vijaywada,Manipal,897.9005
+Vijaywada,Shimoga,756.8595
+Vijaywada,Erode,785.907
+Vijaywada,Nellore,277.5854
+Vijaywada,Perumbavoor,1055.355
+Vijaywada,Salem,719.4343
+Arani,Kumbakonam,213.3041
+Arani,Madurai,371.4289
+Arani,Hubli,619.7603
+Arani,Pondicherry,116.3249
+Arani,Tirupur,311.933
+Arani,Bangarapet,145.5025
+Arani,Kottayam,608.3639
+Arani,Manipal,633.948
+Arani,Shimoga,517.8354
+Arani,Erode,259.6998
+Arani,Nellore,263.2746
+Arani,Perumbavoor,529.1478
+Arani,Salem,193.227
+Kumbakonam,Madurai,212.457
+Kumbakonam,Hubli,790.6034
+Kumbakonam,Pondicherry,148.1478
+Kumbakonam,Tirupur,271.9954
+Kumbakonam,Bangarapet,374.9162
+Kumbakonam,Kottayam,484.216
+Kumbakonam,Manipal,739.091
+Kumbakonam,Shimoga,688.6786
+Kumbakonam,Erode,220.0851
+Kumbakonam,Nellore,444.7655
+Kumbakonam,Perumbavoor,440.6834
+Kumbakonam,Salem,196.1814
+Madurai, Hubli, 836.2411999999999
+Madurai, Pondicherry, 328.0795
+Madurai, Tirupur, 183.0469
+Madurai, Bangarapet, 447.9194
+Madurai, Kottayam, 249.4964
+Madurai, Manipal, 714.5686
+Madurai, Shimoga, 734.3164
+Madurai, Erode, 202.0436
+Madurai, Nellore, 636.084
+Madurai, Perumbavoor, 224.6831
+Madurai, Salem, 242.9652
+Hubli, Pondicherry, 734.9718
+Hubli, Tirupur, 696.7651999999999
+Hubli, Bangarapet, 491.619
+Hubli, Kottayam, 859.4188
+Hubli, Manipal, 304.015
+Hubli, Shimoga, 196.793
+Hubli, Erode, 655.5406999999999
+Hubli, Nellore, 621.8525999999999
+Hubli, Perumbavoor, 785.8565
+Hubli, Salem, 602.0115
+Pondicherry, Tirupur, 333.4038
+Pondicherry, Bangarapet, 293.248
+Pondicherry, Kottayam, 550.4798000000001
+Pondicherry, Manipal, 727.2896
+Pondicherry, Shimoga, 665.5809
+Pondicherry, Erode, 281.1706
+Pondicherry, Nellore, 332.9706
+Pondicherry, Perumbavoor, 550.6186
+Pondicherry, Salem, 215.1571
+Tirupur, Bangarapet, 283.897
+Tirupur, Kottayam, 293.5514
+Tirupur, Manipal, 497.25140000000005
+Tirupur, Shimoga, 465.9907
+Tirupur, Erode, 54.3765
+Tirupur, Nellore, 557.6163
+Tirupur, Perumbavoor, 219.9891
+Tirupur, Salem, 119.5373
+Bangarapet, Kottayam, 573.5536
+Bangarapet, Manipal, 491.0301
+Bangarapet, Shimoga, 388.9113
+Bangarapet, Erode, 241.552
+Bangarapet, Nellore, 323.9496
+Bangarapet, Perumbavoor, 499.9914
+Bangarapet, Salem, 200.7688
+Kottayam, Manipal, 523.8409
+Kottayam, Shimoga, 680.4781999999999
+Kottayam, Erode, 336.4903
+Kottayam, Nellore, 856.2726
+Kottayam, Perumbavoor, 74.28760000000001
+Kottayam, Salem, 417.1802
+Manipal, Shimoga, 141.7474
+Manipal, Erode, 514.7971
+Manipal, Nellore, 739.1674
+Manipal, Perumbavoor, 469.3662
+Manipal, Salem, 544.1473000000001
+Shimoga, Erode, 554.0339
+Shimoga, Nellore, 599.8065
+Shimoga, Perumbavoor, 612.2605
+Shimoga, Salem, 500.5047
+Erode, Nellore, 505.13340000000005
+Erode, Perumbavoor, 271.557
+Erode, Salem, 67.0544
+Nellore, Perumbavoor, 778.3646
+Nellore, Salem, 442.44390000000004
+Perumbavoor, Salem, 329.3393
