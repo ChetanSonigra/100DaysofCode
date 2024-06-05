@@ -16,3 +16,17 @@ Use lorem ipsum/bacon ipsum/broipsum to get content examples to use in html.
 
 <p>This is a paragraph</p1>
 
+
+# Void elements: no content and self closing element
+
+Horizonatal rule element: 
+adds horizontal line
+<hr />
+
+Break element:
+<br /> breaks the current line
+
+--> diffchecker site to check difference between files.
+
+Don't use <br/> to add line and separate paragraph. 
+you can also use <br> or <hr>
