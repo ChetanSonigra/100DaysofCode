@@ -1,0 +1,24 @@
+Cascading Style Sheets - css
+Syntacticlly awesome style sheets - sass
+Leaner Style sheets - less
+
+Why? 
+to add style to simple html pages.
+
+
+--> How to add css to html site:
+1. inline : in tag itself = for single element
+    <html style="background:blue"></html>
+2. internal : in head tag = for single webpage 
+    <style> 
+        html{
+            background: red;
+        }
+    </style>
+3. external : in completely separate file. link attribute - for multi webpages - most common
+    <head>
+        <link
+            rel="stylesheet"   -- relationship
+            href="./styles.css"  -- location
+        />
+    </head>
