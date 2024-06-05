@@ -22,3 +22,13 @@ to add style to simple html pages.
             href="./styles.css"  -- location
         />
     </head>
+
+
+--> CSS Selector: which part of html to apply styles.
+
+tag = tagname {}
+class = .classname{}   => can be applied to many elements
+id = #id{}             => should be unique to each element
+p[draggable]{}         => attribute selector - all p with attribute draggable = True
+p[draggable="false"]{} => attribute selector based on value 
+* {}                   => universal selector
