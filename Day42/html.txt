@@ -43,3 +43,10 @@ type ! to generate boiler plate
     </ul>
   </li>
 </ul>
+
+
+--> Anchor element: 
+
+<a href="http://www.google.com">This is a link</a>
+
+--> tag specific attribute and global attribute
