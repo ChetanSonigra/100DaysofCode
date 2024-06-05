@@ -50,3 +50,8 @@ type ! to generate boiler plate
 <a href="http://www.google.com">This is a link</a>
 
 --> tag specific attribute and global attribute
+
+
+--> image element:
+200= size of photo can be changed.
+<img src="https://picsum.photos/200" alt="Forest at sunset/>
