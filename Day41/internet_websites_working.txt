@@ -1,0 +1,17 @@
+--> How do internet work? 
+
+a long piece of wire which connects different computers.
+some computers are servers which has to be 24x7 and serves the data you need.
+
+client(browser) --asks data through url--> ISP(internet service provider) 
+--checks ip address--> DNS (Domain Name Server)
+
+checkout nslookup.io to find ip address for any site. you can use this ip to get the website.
+
+Under sea cables connects all continents and computers. see - submarine cable map
+
+
+--> How websites work? 
+
+code files sent by server: html(structure), css(styling), js(interact, to do things,have behaviors)
+
