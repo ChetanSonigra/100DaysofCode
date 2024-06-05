@@ -31,3 +31,15 @@ type ! to generate boiler plate
   <li>Sugar</li>
 </ol>
 
+
+--> Nesting and Indentation for good code.
+<ul>
+  <li>point 1</li>
+  <li>point 2</li>
+  <li>point 3
+    <ul>
+      <li>subpoint 1</li>
+      <li>subpoint 2</li>
+    </ul>
+  </li>
+</ul>
