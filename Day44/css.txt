@@ -1,0 +1,12 @@
+--> CSS colors:
+
+background-color: red;
+color: red;
+
+-> you can use hex code as well.
+color: #ffffff;
+
+
+check all properties and its values at developer mozilla docs for html.
+
+-> color hunt for color choice of your website.
