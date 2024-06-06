@@ -10,3 +10,20 @@ color: #ffffff;
 check all properties and its values at developer mozilla docs for html.
 
 -> color hunt for color choice of your website.
+
+
+--> Font properties:
+1px = 1/96th inch
+1pt = 1/72nd inch
+1em = 100% of parent
+1rem = 100% of root
+
+color: 
+font-weight: normal, bold, normal bolder, lighter bolder, number (100-900)
+font-size: 20px;   
+font-family: Halvetica,sans-serif  
+             "Times New Roman",serif
+
+            - checkout fonts.google.com to find new fonts.
+text-align: center, start, end, left, right
+
