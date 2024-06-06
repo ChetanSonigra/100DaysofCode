@@ -34,3 +34,27 @@ text-align: center, start, end, left, right
 - more tools -> css overview
 - chrome extension - https://chromewebstore.google.com/detail/pesticide-for-chrome/bakpbgckdnepkmkeaiomhmfcnejndkbi?pli=1
 
+
+--> Box Model:
+
+Margin, padding, and border
+
+height: 600px -- pushes elements below it to lower.
+width: 600px -- pushes elements on the right to further right.
+width: 100%
+
+border: 10px solid black;  - thickness, style(solid,dashed), color
+border-top: 0px - to remove top border
+border-width: 0px 10px 20px 10px - top,right,bottom,left
+border-width: 0px 20px - top,bottom = 0 left,right= 20
+border comes outside element
+
+padding: adds space between border and element.
+padding: 20px
+
+margin: adds space outside border space
+margin: 10px
+padding and margin also can take 4/2 values similar to border
+
+
+

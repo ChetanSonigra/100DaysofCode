@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+        }
+        #one {
+            background-color: cadetblue;
+            border: 10px solid black;
+            padding: 20px;
+            margin: 0px;
+        }
+        #two {
+            background-color: gold;
+            border: 10px solid black;
+            border-width: 20px 10px;
+            margin-left: 260px;
+        }
+        #three {
+            background-color: indianred;
+            border: 10px solid black;
+            margin-left: 480px;
+        }
+        p {
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+        }
+    </style>
+</head>
+<body>
+    <!-- or just use p {margin: 0px} to remove all margins-->
+    <div id="one">
+        <p>
+            Hello, I am Chetan! I am learning css box model. 
+            I like to learn new technologies and build stuff.
+        </p>
+    </div>
+    <div id="two"></div>
+    <div id="three"></div>
+</body>
+</html>
