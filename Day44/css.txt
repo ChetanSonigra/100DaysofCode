@@ -27,3 +27,10 @@ font-family: Halvetica,sans-serif
             - checkout fonts.google.com to find new fonts.
 text-align: center, start, end, left, right
 
+--> CSS Inspection: 
+- developer tool/console in browser : from right click or "ctrl+shift+i"
+- or inspect any specific element with right click and inspect.
+- elements tab -> styles, computed
+- more tools -> css overview
+- chrome extension - https://chromewebstore.google.com/detail/pesticide-for-chrome/bakpbgckdnepkmkeaiomhmfcnejndkbi?pli=1
+
