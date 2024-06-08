@@ -1,0 +1,15 @@
+Data that is publicly available and not copyrighted is legal to scrap.
+
+Can't scrap data behind authentication.
+
+Some websites may have capcha to prevent scraping of data.
+
+if using data commercially/selling the data - it might be illegal.
+
+--> Ethics:
+
+- Public API first
+- Respect the web owner
+- check url/robots.txt to see permissions from websites.
+- Limit your rate.
+
