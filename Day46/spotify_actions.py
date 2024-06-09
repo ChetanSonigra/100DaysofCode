@@ -5,6 +5,7 @@ class Spotify:
     def __init__(self,user_date) -> None:
         self.user_date = user_date
         self.scope = "playlist-modify-private"
+        self.playlist_id = None
         self.sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=os.environ.get("SPOTIFY_CLIENT_ID"),
                                                client_secret=os.environ.get("SPOTIFY_CLIENT_SECRET"),
                                                redirect_uri="http://localhost:8000/",
@@ -36,6 +37,7 @@ class Spotify:
         self.playlist_id = result['id']
 
     def add_songs_to_playlist(self):
-        result = self.sp.playlist_add_items(self.playlist_id,self.track_uris)
+        if self.playlist_id:
+            self.sp.playlist_add_items(self.playlist_id,self.track_uris)
 
 
