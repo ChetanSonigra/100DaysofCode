@@ -1,0 +1,7 @@
+Allow you to type something and interact with website.
+Can automate every interaction with website.
+
+
+--> Install and SetUp:
+1. Install Chrome
+2. Install and SetUp Selenium. (automatically downloads chrome driver)
