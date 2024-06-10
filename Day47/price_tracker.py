@@ -4,21 +4,23 @@
 # https://myhttpheader.com/
 import requests,lxml,smtplib,os
 from bs4 import BeautifulSoup
-from browser_headers import headers, MY_EMAIL
+# from browser_headers import headers, MY_EMAIL
 
-amzn_link = "https://www.amazon.in/dp/B0BY8JZ22K?FORM=SSAPC1&th=1"
-target_price = 21000
-amzn_item = "OnePlus Nord CE 3 Lite 5G (Pastel Lime, 8GB RAM, 128GB Storage)"
+MY_EMAIL = os.getenv("MY_EMAIL")
+RECIPIENT_MAIL = os.getenv("RECIPIENT_MAIL")
+amzn_link = os.getenv("AMZN_LINK")
+target_price = float(os.getenv("TARGET_PRICE"))
+amzn_item = os.getenv("AMZN_ITEM")
 
 def send_mail(message):
     with smtplib.SMTP("smtp.gmail.com",port=587) as con:
         con.starttls()
-        con.login(user=MY_EMAIL,password=os.environ.get("MY_EMAIL_PASSWD"))
+        con.login(user=MY_EMAIL,password=os.getenv("MY_EMAIL_PASSWD"))
         con.sendmail(from_addr=MY_EMAIL,
-                     to_addrs=MY_EMAIL,
+                     to_addrs=RECIPIENT_MAIL,
                      msg=f"Subject: Amazon Price Alert!\n\n{message}")
 
-response = requests.get(amzn_link,headers=headers)
+response = requests.get(amzn_link) #headers=headers
 
 amzn_page = response.text
 
