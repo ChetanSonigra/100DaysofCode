@@ -1,7 +1,21 @@
 Allow you to type something and interact with website.
 Can automate every interaction with website.
+Useful when site is using js,angular, react.
 
 
 --> Install and SetUp:
 1. Install Chrome
 2. Install and SetUp Selenium. (automatically downloads chrome driver)
+
+--> Locator Strategy in selenium:
+Use By class to find element.
+driver.find_element(By.CLASS_ELEMENT, value="a-whole-price")
+Locators:
+- class name
+- css selector
+- id
+- name       = attribute
+- link text
+- partial link text
+- tag name
+- xpath      = XPATH can be copied by right clicking on that element.
